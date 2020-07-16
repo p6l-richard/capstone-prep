@@ -1,5 +1,5 @@
 from flask_script import Manager
-from flask_migrate import Migrate
+from flask_migrate import Migrate, MigrateCommand
 
 from models import db
 from api import app
